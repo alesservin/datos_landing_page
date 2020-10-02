@@ -17,10 +17,10 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Gatsby Starter - Forty"
+                    title="datos.gov.py"
                     meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
+                        { name: 'description', content: 'Sitio de datos abiertos de la socidad civil del Paraguay' },
+                        { name: 'keywords', content: 'datos, abiertos, Paraguay, open, data' },
                     ]}
                 >
                 </Helmet>
@@ -31,55 +31,85 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Accede a datos</h3>
+                                <p>Podrás acceder a nuestros conjuntos de datos
+                                de uso abierto para todos</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="https://datos.org.py/dataset" className="link primary"></Link>
+                            {/* <Link to="/landing" className="link primary"></Link> */}
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Visualiza</h3>
+                                <p>Descubre las formas con las que puedes
+                                comprender los datos: gr&aacute;ficos, mapas
+                                y m&aacute;s </p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="https://datos.org.py/dataset" className="link primary"></Link>
+                            {/*<Link to="/landing" className="link primary"></Link>*/}
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>Explora aplicaciones c&iacute;vicas</h3>
+                                <p>Accede a las aplicaciones que utilizan datos
+                                abiertos en Paraguay</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="https://datos.org.py/sites/apps.html" className="link primary"></Link>
+                            {/*<Link to="/landing" className="link primary"></Link>*/}
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
+                                <h3>Utiliza nuestra API</h3>
+                                <p>Los desarrolladores de software pueden
+                                utilizar nuestra API y crear c&oacute;digo que
+                                interact&uacute;e con nuestro sitio y nuestros
+                                datos</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="https://docs.ckan.org/en/2.9/api/index.html" className="link primary"></Link>
+                            {/*<Link to="/landing" className="link primary"></Link> */}
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Conoce organizaciones</h3>
+                                <p>Averigua cu&aacute;les son las organizaciones
+                                que forman parte de la Comunidad de Datos
+                                 Abiertos del Paraguay</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="https://datos.org.py/organization" className="link primary"></Link>
+                            {/*<Link to="/landing" className="link primary"></Link>*/}
                         </article>
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
+                                <h3>Suscr&iacute;bete y publica datos</h3>
+                                <p>Cualquier sector de la sociedad puede formar
+                                parte suscribi&eacute;ndose y publicando
+                                datos abiertos para todos</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="https://datos.org.py/#subscribe-section" className="link primary"></Link>
+                            {/*<Link to="/landing" className="link primary"></Link>*/}
                         </article>
                     </section>
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Massa libero</h2>
+                                <h2>¿Qué es el Portal de DatosPy?</h2>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                            <p>
+                              El Portal de Datos Abiertos de la Sociedad Civil,
+                              Academia y Sector Privado es un esfuerzo por abrir
+                               y publicar datos que nos permitan analizar y
+                               resolver los problemas que afectan a nuestra
+                               sociedad.
+                            </p>
+                            <p>
+                              Este portal acerca esos datos a la población y
+                              proporciona un espacio para que sean alojados y
+                              utilizados. Esta plataforma es mantenida por la
+                              comunidad de Datos Abiertos de Paraguay.
+                            </p>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                                <li><Link to="https://datos.org.py/" className="button next">Comenzar</Link></li>
+                                {/*<li><Link to="/landing" className="button next">Comenzar</Link></li>*/}
                             </ul>
                         </div>
                     </section>

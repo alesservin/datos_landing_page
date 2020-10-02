@@ -4,13 +4,16 @@ const Banner = (props) => (
     <section id="banner" className="major">
         <div className="inner">
             <header className="major">
-                <h1>Hi, my name is Forty</h1>
+                <h1>Portal de datos abiertos de la sociedad civil</h1>
             </header>
             <div className="content">
-                <p>A responsive site template designed by HTML5 UP<br />
-                and released under the Creative Commons.</p>
+                <p>El Portal es un esfuerzo por abrir y publicar datos que nos
+                permitan analizar y resolver los problemas que afectan a nuestra
+                 sociedad.</p>
+
                 <ul className="actions">
-                    <li><a href="#one" className="button next scrolly">Get Started</a></li>
+                    {/* <li><a href="#one" className="button next scrolly">Comenzar</a></li> */}
+                    <li><a href="#one" className="button next scrolly">Ver m&aacute;s</a></li>
                 </ul>
             </div>
         </div>

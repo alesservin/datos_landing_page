@@ -1,8 +1,10 @@
+const path = require(`path`)
+
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Forty V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Forty by HTML5 UP"
+    title: "Datos Abiertos Paraguay",
+    author: "Alejandro Servin, based on Forty by HTML5 UP",
+    description: "Sitio de datos abiertos de la socidad civil del Paraguay"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -15,10 +17,19 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
+        icon: 'src/assets/newimages/datos_abiertos_py_fondo_claro_vertical.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `newimages`,
+        path: `${__dirname}/src/assets/newimages`,
+      },
+    },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
   ],
 }
