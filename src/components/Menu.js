@@ -14,6 +14,7 @@ const Menu = (props) => (
               */}
               <li><Link onClick={props.onToggleMenu} to="https://datos.org.py/">Comenzar</Link></li>
               <li><Link onClick={props.onToggleMenu} to="https://datos.org.py/dataset">Datos</Link></li>
+              <li><Link onClick={props.onToggleMenu} to="https://datos.org.py/sites/apps.html">Apps C&iacute;vicas</Link></li>
               <li><Link onClick={props.onToggleMenu} to="https://datos.org.py/organization">Organizaciones</Link></li>
             </ul>
             {/*
