@@ -17,7 +17,7 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="datos.gov.py"
+                    title="datos.org.py"
                     meta={[
                         { name: 'description', content: 'Sitio de datos abiertos de la socidad civil del Paraguay' },
                         { name: 'keywords', content: 'datos, abiertos, Paraguay, open, data' },
