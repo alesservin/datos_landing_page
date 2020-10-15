@@ -1,30 +1,19 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
 
 const Menu = (props) => (
     <nav id="menu">
         <div className="inner">
             <ul className="links">
-              {/*
-                <li><Link onClick={props.onToggleMenu} to="/">Home</Link></li>
-                <li><Link onClick={props.onToggleMenu} to="/landing">Landing</Link></li>
-                <li><Link onClick={props.onToggleMenu} to="/generic">Generic</Link></li>
-                <li><Link onClick={props.onToggleMenu} to="/elements">Elements</Link></li>
-              */}
-              <li><Link onClick={props.onToggleMenu} to="https://datos.org.py/">Comenzar</Link></li>
-              <li><Link onClick={props.onToggleMenu} to="https://datos.org.py/dataset">Datos</Link></li>
-              <li><Link onClick={props.onToggleMenu} to="https://datos.org.py/sites/apps.html">Apps C&iacute;vicas</Link></li>
-              <li><Link onClick={props.onToggleMenu} to="https://datos.org.py/organization">Organizaciones</Link></li>
+              <li><a onClick={props.onToggleMenu} href="https://datos.org.py/">Comenzar</a></li>
+              <li><a onClick={props.onToggleMenu} href="https://datos.org.py/dataset">Datos</a></li>
+              <li><a onClick={props.onToggleMenu} href="https://datos.org.py/sites/apps.html">Apps C&iacute;vicas</a></li>
+              <li><a onClick={props.onToggleMenu} href="https://datos.org.py/organization">Organizaciones</a></li>
             </ul>
-            {/*
-            <ul className="actions vertical">
-                <li><a href="#" className="button special fit">Get Started</a></li>
-                <li><a href="#" className="button fit">Log In</a></li>
-            </ul>
-            */}
         </div>
-        <a className="close" onClick={props.onToggleMenu} href="javascript:;">Close</a>
+        <button className="close" onClick={props.onToggleMenu} style={{boxShadow:'none'}}>
+          Close
+        </button>
     </nav>
 )
 

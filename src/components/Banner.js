@@ -12,7 +12,6 @@ const Banner = (props) => (
                  sociedad.</p>
 
                 <ul className="actions">
-                    {/* <li><a href="#one" className="button next scrolly">Comenzar</a></li> */}
                     <li><a href="#one" className="button next scrolly">Ver m&aacute;s</a></li>
                 </ul>
             </div>
