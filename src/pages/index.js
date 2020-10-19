@@ -16,7 +16,7 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="datos.org.py"
+                    title="portal.datos.org.py"
                     meta={[
                         { name: 'description', content: 'Sitio de datos abiertos de la socidad civil del Paraguay' },
                         { name: 'keywords', content: 'datos, abiertos, Paraguay, open, data' },
@@ -34,7 +34,7 @@ class HomeIndex extends React.Component {
                                 <p>Podrás acceder a nuestros conjuntos de datos
                                 de uso abierto para todos</p>
                             </header>
-                            <a href="https://datos.org.py/dataset" className="link primary"> </a>
+                            <a href="https://portal.datos.org.py/dataset" className="link primary"> </a>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
@@ -43,7 +43,7 @@ class HomeIndex extends React.Component {
                                 comprender los datos: gr&aacute;ficos, mapas
                                 y m&aacute;s </p>
                             </header>
-                            <a href="https://datos.org.py/dataset" className="link primary"> </a>
+                            <a href="https://portal.datos.org.py/dataset" className="link primary"> </a>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
@@ -51,7 +51,7 @@ class HomeIndex extends React.Component {
                                 <p>Accede a las aplicaciones que utilizan datos
                                 abiertos en Paraguay</p>
                             </header>
-                            <a href="https://datos.org.py/sites/apps.html" className="link primary"> </a>
+                            <a href="https://portal.datos.org.py/sites/apps.html" className="link primary"> </a>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
@@ -70,7 +70,7 @@ class HomeIndex extends React.Component {
                                 que forman parte de la Comunidad de Datos
                                  Abiertos del Paraguay</p>
                             </header>
-                            <a href="https://datos.org.py/organization" className="link primary"> </a>
+                            <a href="https://portal.datos.org.py/organization" className="link primary"> </a>
                         </article>
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
@@ -79,7 +79,7 @@ class HomeIndex extends React.Component {
                                 parte suscribi&eacute;ndose y publicando
                                 datos abiertos para todos</p>
                             </header>
-                            <a href="https://datos.org.py/#subscribe-section" className="link primary"> </a>
+                            <a href="https://portal.datos.org.py/#subscribe-section" className="link primary"> </a>
                         </article>
                     </section>
                     <section id="two">
@@ -101,7 +101,7 @@ class HomeIndex extends React.Component {
                               comunidad de Datos Abiertos de Paraguay.
                             </p>
                             <ul className="actions">
-                                <li><a href="https://datos.org.py/" className="button next">Comenzar</a></li>
+                                <li><a href="https://portal.datos.org.py/" className="button next">Comenzar</a></li>
                             </ul>
                         </div>
                     </section>

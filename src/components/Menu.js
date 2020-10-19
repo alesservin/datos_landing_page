@@ -5,10 +5,10 @@ const Menu = (props) => (
     <nav id="menu">
         <div className="inner">
             <ul className="links">
-              <li><a onClick={props.onToggleMenu} href="https://datos.org.py/">Comenzar</a></li>
-              <li><a onClick={props.onToggleMenu} href="https://datos.org.py/dataset">Datos</a></li>
-              <li><a onClick={props.onToggleMenu} href="https://datos.org.py/sites/apps.html">Apps C&iacute;vicas</a></li>
-              <li><a onClick={props.onToggleMenu} href="https://datos.org.py/organization">Organizaciones</a></li>
+              <li><a onClick={props.onToggleMenu} href="https://portal.datos.org.py/">Comenzar</a></li>
+              <li><a onClick={props.onToggleMenu} href="https://portal.datos.org.py/dataset">Datos</a></li>
+              <li><a onClick={props.onToggleMenu} href="https://portal.datos.org.py/sites/apps.html">Apps C&iacute;vicas</a></li>
+              <li><a onClick={props.onToggleMenu} href="https://portal.datos.org.py/organization">Organizaciones</a></li>
             </ul>
         </div>
         <button className="close" onClick={props.onToggleMenu} style={{boxShadow:'none'}}>
