@@ -1,0 +1,35 @@
+/* Collaborators section */
+.collaborators {
+    background-color: #FFFFFF;
+    padding: 25px 10px 25px 10px;
+    color: #858585;
+    text-align: center;
+}
+
+.collaborators h2 {
+    text-align: center;
+    color: #858585;
+}
+
+.collaborators a {
+    border-bottom: none;
+}
+
+.collaborators div {
+    display: inline-block;
+    margin: 10px;
+}
+
+.collaborators div img {
+    margin: 30px 90px 30px 10px;
+    height: 70px;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 767px){
+  .collaborators div img {
+      margin: 30px 10px 30px 10px;
+  }
+}
+
+/* End of collaborators section */
