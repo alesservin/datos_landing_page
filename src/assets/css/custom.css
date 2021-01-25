@@ -33,3 +33,21 @@
 }
 
 /* End of collaborators section */
+
+/* Banner section */
+.carousel-indicators li {
+  width: 5px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.carousel-container .item {
+  height: 700px;
+}
+
+@media only screen and (max-width: 1680px) {
+  .carousel-container .item {
+    height: 530px;
+  }
+}
+/* End of Banner section */

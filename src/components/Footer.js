@@ -10,6 +10,9 @@ const Footer = (props) => (
             </ul>
             <ul className="copyright">
                 <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+                <li style={{color: 'white'}}> Las im&aacute;genes de lugares del Paraguay provienen de &nbsp;
+                    <a href="https://www.instagram.com/fotociclo/">FOTOCICLO</a>
+                 </li>
             </ul>
         </div>
     </footer>

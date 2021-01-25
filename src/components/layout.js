@@ -15,16 +15,16 @@ class Layout extends React.Component {
         this.handleToggleMenu = this.handleToggleMenu.bind(this)
     }
 
-    componentDidMount () {
-        this.timeoutId = setTimeout(() => {
-            this.setState({loading: ''});
-        }, 100);
-    }
 
-    componentWillUnmount () {
-        if (this.timeoutId) {
-            clearTimeout(this.timeoutId);
-        }
+    componentDidMount () {
+      if (this.timeoutId) {
+          clearTimeout(this.timeoutId);
+      }
+
+      this.timeoutId = setTimeout(() => {
+          this.setState({loading: ''});
+      }, 100);
+
     }
 
     handleToggleMenu() {
